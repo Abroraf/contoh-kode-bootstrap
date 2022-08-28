@@ -1,0 +1,53 @@
+/* manual import font  */
+@font-face {
+  font-family: "Work-Sans";
+  src: url("Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 102px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  margin: 0;
+  color: white;
+
+  padding-left: 161px;
+  padding-top: 30px;
+
+  font-family: Work-Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: left;
+  letter-spacing: -0.02em;
+  width: 401px;
+  height: 56px;
+}
+p {
+  margin: 0px;
+}
+.menu {
+  color: white;
+  display: flex;
+  gap: 20px;
+
+  padding-top: 52px;
+  font-family: Work-Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+.last-menu {
+  margin-right: 176px;
+}
